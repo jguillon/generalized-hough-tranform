@@ -28,8 +28,6 @@ protected:
 	int m_nSlices;
 	int m_cannyThreshold1;
 	int m_cannyThreshold2;
-	int m_accumThreshold;
-	int m_RTableSize;
 	double m_minPositivesDistance;
 	double m_deltaRotationAngle;
 	double m_minRotationAngle;

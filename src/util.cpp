@@ -17,7 +17,7 @@ using namespace std;
 
 int rad2SliceIndex(double angle, int nSlices) {
 	double a = (angle > 0) ? (fmodf(angle,2*PI)) : (fmodf(angle+2*PI,2*PI));
-	return floor( a / (2*PI/nSlices + 0.0001) );
+	return floor( a / (2*PI/nSlices + 0.00000001) );
 }
 
 Mat gradientY(const Mat &src) {
